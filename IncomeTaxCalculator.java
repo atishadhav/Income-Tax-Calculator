@@ -1,9 +1,11 @@
 
 import java.util.*;
-// This is income tax calculator
+
+// This is simple income tax calculator.
+
 public class IncomeTaxCalculator {
     public static void main(String args[]){     
-        Scanner sc = new Scanner (System.in);
+        Scanner sc = new Scanner (System.in); // user input
         int income = sc.nextInt();
         int tax;
 
